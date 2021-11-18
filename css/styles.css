@@ -1,8 +1,8 @@
 /* CSS Document */
 body {
-	background: rgb(170,255,243);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    background: rgb(170,255,243);
     background: linear-gradient(156deg, rgba(170,255,243,1) 0%, rgba(77,210,179,1) 59%, rgba(0,255,158,1) 100%);
-
 
 }
 .heading {
