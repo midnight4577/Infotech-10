@@ -5,3 +5,7 @@ body {
 
 
 }
+.heading {
+    border: thick outset #00C6C9;
+    background-image: inherit;
+}
