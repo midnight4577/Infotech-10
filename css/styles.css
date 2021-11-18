@@ -9,3 +9,8 @@ body {
     border: thick outset #00C6C9;
     background-image: inherit;
 }
+.img {
+    /* [disabled]border-color: #00C6C9; */
+    border-style: outset;
+    border-width: medium;
+}
