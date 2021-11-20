@@ -1,15 +1,18 @@
 /* CSS Document */
 body {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-    background: linear-gradient(156deg, rgba(170,255,243,1) 0%, rgba(77,210,179,1) 59%, rgba(0,255,158,1) 100%);
+    background:rgba(0,0,0,1.00);
+	
 }
 
 .heading {
-    border: thick outset #00C6C9;
+	color: #0024FF;
+    border: thin outset #0024FF;
     background-image: inherit;
+	padding: 1px 10px 1px 10px;
 }
 .img {
-    /* [disabled]border-color: #00C6C9; */
+    border-color: #0024FF;
     border-style: outset;
     border-width: medium;
 }
@@ -18,7 +21,7 @@ body {
 	margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2774B7;
+    background-color: #0024FF;
 }
 
 li {
@@ -27,7 +30,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #000000;
   text-align: center;
   padding: 4px 20px;
   text-decoration: none;
@@ -35,4 +38,12 @@ li a {
 
 li a:hover {
   background-color: #111;
+  color: #0024FF;
+
+}
+
+table {
+    color: #0024FF;
+    border: thick outset #0024FF;
+    background-color: #2C2C2C;
 }
