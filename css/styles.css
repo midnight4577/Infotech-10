@@ -1,7 +1,9 @@
 /* CSS Document */
 body {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-    background:rgba(0,0,0,1.00);
+	/*background: #000000;*/
+	background-image: url(/pics/Blue_line_texture.png);
+    background-repeat:repeat;
 	
 }
 
