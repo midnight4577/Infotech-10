@@ -2,7 +2,7 @@
 body {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	/*background: #000000;*/
-	background-image: url(/pics/Blue_marble.jpg);
+	background-image: url(../pics/Blue_marble.jpg);
     background-repeat: repeat;
 	
 }
