@@ -1,9 +1,9 @@
 /* CSS Document */
 body {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-	/*background: #000000;*/
+    font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", sans-serif;
 	background-image: url(../pics/Blue_marble.jpg);
     background-repeat: repeat;
+	padding: 0px 60px 10px 60px;
 	
 }
 
@@ -17,6 +17,8 @@ body {
     border-color: #0024FF;
     border-style: outset;
     border-width: medium;
+	padding: 1px;
+
 }
 .nav {
 	list-style-type: none;
