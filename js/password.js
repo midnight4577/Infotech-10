@@ -27,9 +27,10 @@ function clearNums(){
 	return nums;
 }
 function checkNums(){
-	//would have to encrypt "nums" then check wether the 2 encrypted variables
-	//this would still be increadably easy to brute force
+	//would have to encrypt "nums" then check whether the 2 encrypted variables are equal
+	//this would still be easy to brute force
 	if (arraysEqual(nums, correctNums)){
+		nums.length = 0;
 		return "Correct";
 	}
 	else{
