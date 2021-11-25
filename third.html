@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<title>Info Tech 10 website (AD)</title>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+	
+
+<ul class="nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="second.html">Second</a></li>
+  <li><a href="third.html">Third</a></li>
+  <li><a href="...">...</a></li>
+</ul>
+
+<h1 class="heading">Password Fun</h1>
+<img src="pics/img_testing_pattern.jpg" alt="Old testing pattern" width="23%" class="img">
+
+	
+<p>A super Unsecure "password" system. To make it sort of secure all I would have to implement is an encryption method in the check function in the JS file, although this would still be vulnerable to a brute force attack<br>
+By the way the Passcode is 1234</p>
+
+<table border="1">
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(1)">1</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(2)">2</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(3)">3</button>
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(4)">4</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(5)">5</button> 
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(6)">6</button> 
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(7)">7</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(8)">8</button> 
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(9)">9</button> 
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = checkNums()">E</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(0)">0 </button> 
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = clearNums()">C</button>
+	</td>
+  </tr>
+</table>
+
+	
+<p id="numbers"></p>
+<br>
+<br>
+	
+<script src="js/password.js"></script>
+
+</body>
+</html>
