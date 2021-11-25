@@ -25,36 +25,60 @@
   
 
 <p>Just a testing pharagraph using the "<b>p</b>" tag. <br> <b>And</b> experminting with other <u>tags</u></p>
+	
+<p>A super Unsecure "password" system. To make it sort of secure all I would have to implement is an encryption method in the for the check function JS file although this would still be vulnerable to a brute force attack</p>
 
 <table border="1">
   <tr>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(1)">1</button>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(1)">1</button>
 	</td>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(2)">2</button>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(2)">2</button>
 	</td>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(3)">3</button>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(3)">3</button>
 	</td>
   </tr>
   <tr>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(4)">4</button>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(4)">4</button>
 	</td>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(5)">5</button> 
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(5)">5</button> 
 	</td>
     <td>
-		<button type="button" onclick="document.getElementById('numbers').innerHTML = add(6)">6</button> 
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(6)">6</button> 
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(7)">7</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(8)">8</button> 
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(9)">9</button> 
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = checkNums()">E</button>
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = addNum(0)">0 </button> 
+	</td>
+    <td>
+		<button type="button" onclick="document.getElementById('numbers').innerHTML = clearNums()">C</button>
 	</td>
   </tr>
 </table>
 
-
+	
 <p id="numbers"></p>
 	
-<script src="js/test.js"></script>
+<script src="js/password.js"></script>
 
 </body>
 </html>
